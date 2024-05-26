@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: 'Public Sans',sans-serif;
+    background-color: #f2f2f2;
+}
+
+.login-page{
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    height: 100vh;
+    overflow: hidden;
+    padding: 1rem;
+}
+
+.image-container{
+    flex: 1;
+    background-image: url('./assets/Examy.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: left;
+    border-radius: 2rem;
+    align-items: top;
+    padding-left: 32px;
+    padding-top: 32px;
+}
+
+.image-container .brands{
+    color: white;
+    position: relative;
+    top: 60px;
+}
+
+.brands{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.brands img{
+    width: 32px;
+    height: 32px;
+    margin-right: 0.5rem;
+}
+
+.login-form{
+    flex: 1;
+    padding: 2rem;
+}
+
+h1{
+    font-size: 2rem;
+}
